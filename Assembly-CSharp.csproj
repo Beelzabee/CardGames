@@ -54,6 +54,9 @@
      <Compile Include="Assets\Scripts\Controllers\Controller_Game.cs" />
      <Compile Include="Assets\Scripts\Models\Game.cs" />
      <Compile Include="Assets\Scripts\Models\GameTypes.cs" />
+     <Compile Include="Assets\UI\AutomaticHorizontalSize.cs" />
+     <Compile Include="Assets\UI\AutomaticVerticalSize.cs" />
+     <None Include="Assets\UI\Kenney Assets\License.txt" />
  <Reference Include="Facebook.Unity.Settings">
  <HintPath>C:/Users/Public/Documents/Unity Projects/CardGames/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
  </Reference>
