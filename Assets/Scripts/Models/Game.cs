@@ -5,11 +5,15 @@ using UnityEngine;
 public class Game {
 
 	//There should be several different types of card games
-	List <GameTypes> gt = new List<GameTypes> ();
+	public string[] sceneNames { get; protected set; }
 
-	public GameTypes[] ReturnGameTypes (){
-		GameTypes[] solution = gt.ToArray ();
-		return solution;
+	public Game (){
+		sceneNames = new string[0];
 	}
+
+	public void SetSceneNames (string [] sceneNames){
+		this.sceneNames = sceneNames;
+	}
+
 
 }

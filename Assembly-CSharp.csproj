@@ -52,8 +52,10 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Controllers\Controller_Game.cs" />
+     <Compile Include="Assets\Scripts\Controllers\Controller_Menus.cs" />
+     <Compile Include="Assets\Scripts\DontDestroy.cs" />
+     <Compile Include="Assets\Scripts\Menu.cs" />
      <Compile Include="Assets\Scripts\Models\Game.cs" />
-     <Compile Include="Assets\Scripts\Models\GameTypes.cs" />
      <Compile Include="Assets\UI\AutomaticHorizontalSize.cs" />
      <Compile Include="Assets\UI\AutomaticVerticalSize.cs" />
      <None Include="Assets\UI\Kenney Assets\License.txt" />
