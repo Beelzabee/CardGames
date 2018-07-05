@@ -5,13 +5,15 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class Controller_Game : MonoBehaviour {
+	
 	#region Variables/.. whatever they are called
-	private AssetBundle myLoadedAssetBundle;
-
 	public static Controller_Game Instance { get; protected set; }
 
-	//The world and tile data
+	//The game data
 	public Game game { get; protected set; }
+
+	public GameObject gameCanvas;
+	public GameObject menuCanvas;
 	#endregion
 
 	#region MonoBehaviours
@@ -28,12 +30,15 @@ public class Controller_Game : MonoBehaviour {
 
 	//Use this for initialization
 	void Start () {
+
 		game.SetSceneNames (LoadScenes ());
 
 		//FIXME: Just for debug
 		foreach (string s in game.sceneNames) {
 			Debug.Log (s);
 		}
+
+		SwitchScene ("MainMenu");
 	}
 	#endregion
 
@@ -54,11 +59,20 @@ public class Controller_Game : MonoBehaviour {
 		}
 		return solution;
 	}
+
 	//Switch Game mode by switching scenes
 	public void SwitchScene (string name){
 		//TODO:: Add a transition effect so it
 		// isn't just an instant switch
 		SceneManager.LoadScene (name);
+		if (name == "MainMenu") {
+			menuCanvas.SetActive (false);
+			gameCanvas.SetActive (true);
+		}
+		else {
+			menuCanvas.SetActive (true);
+			gameCanvas.SetActive (false);
+		}
 	}
 
 	#endregion

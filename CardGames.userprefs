@@ -2,10 +2,9 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Controllers\Controller_Game.cs">
     <Files>
-      <File FileName="Assets\Scripts\Controllers\Controller_Game.cs" Line="12" Column="1" />
-      <File FileName="Assets\Scripts\Models\Game.cs" Line="14" Column="31" />
-      <File FileName="Assets\Scripts\Menu.cs" Line="8" Column="2" />
-      <File FileName="Assets\Scripts\Controllers\Controller_Menus.cs" Line="15" Column="28" />
+      <File FileName="Assets\Scripts\Controllers\Controller_Game.cs" Line="69" Column="1" />
+      <File FileName="Assets\Scripts\DontDestroy.cs" Line="7" Column="1" />
+      <File FileName="Assets\Scripts\GameCanvas.cs" Line="7" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

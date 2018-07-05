@@ -6,8 +6,11 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Scene_Working.unity
+    path: Assets/Scenes/PreGameScene.unity
+    guid: 46fd051bde0de4b4795e471089f4860d
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
     guid: 4fc7bea0edf34004798847d66b2cc745
   - enabled: 1
-    path: Assets/Scenes/Scene_GoFish.unity
+    path: Assets/Scenes/GameModes/GoFish.unity
     guid: b672d8052583ac14caf3f3ee3125124b
